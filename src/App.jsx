@@ -1,7 +1,7 @@
 import { BrowserRouter } from 'react-router'
 import './App.css'
 import Router from './Router/Router'
-import MenuProvider from './provider/menuProvider'
+import MenuProvider from './provider/MenuProvider'
 
 function App() {
   return (
