@@ -8,7 +8,11 @@ export default function MenuList() {
 
     useEffect(() => {
         let sotrageData = JSON.parse(localStorage.getItem('Menu'))
-        setMenu(sotrageData)
+        if (sotrageData) {
+            setMenu(sotrageData)
+        } else {
+            setMenu([])
+        }
     }, [])
 
     const deleteDish = (removeDish) => {
