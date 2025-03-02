@@ -14,7 +14,7 @@ export default function MenuProvider({ children }) {
 export const useCurrentMenu = () => {
     const context = useContext(menuData);
     if (!context) {
-        throw new Error('you can only call useCurrentMenu under the menuProvider children')
+        throw new Error('you can only call useCurrentMenu under the MenuProvider children')
     };
     return context
 }
