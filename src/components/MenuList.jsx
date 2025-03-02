@@ -6,8 +6,6 @@ import Line from './Line';
 export default function MenuList() {
     const { menu, setMenu } = useCurrentMenu()
 
-
-
     useEffect(() => {
         let sotrageData = JSON.parse(localStorage.getItem('Menu'))
         setMenu(sotrageData)
