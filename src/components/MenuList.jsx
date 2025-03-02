@@ -1,5 +1,5 @@
 import AddButton from './AddButton';
-import { useCurrentMenu } from '../provider/menuProvider';
+import { useCurrentMenu } from '../provider/MenuProvider';
 import { useEffect } from 'react';
 import Line from './Line';
 
