@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router'
 import ROUTES from '../Router/routeModule'
-import { useCurrentMenu } from '../provider/menuProvider'
+import { useCurrentMenu } from '../provider/MenuProvider'
 
 export default function AddDish() {
     const navigate = useNavigate()
